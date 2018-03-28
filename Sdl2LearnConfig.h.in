@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial
+#define Sdl2Learn_VERSION_MAJOR @Sdl2Learn_VERSION_MAJOR@
+#define Sdl2Learn_VERSION_MINOR @Sdl2Learn_VERSION_MINOR@
+#cmakedefine USE_MYMATH
