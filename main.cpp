@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
     SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear"); // make the scaled rendering look smoother.
     SDL_RenderSetLogicalSize(sdlRenderer, 800, 600);
 
-    sdlTexture = SDL_CreateTexture(sdlRenderer,
-                               SDL_PIXELFORMAT_ARGB8888,
-                               SDL_TEXTUREACCESS_STREAMING,
-                               800, 600);
+    // sdlTexture = SDL_CreateTexture(sdlRenderer,
+    //                            SDL_PIXELFORMAT_ARGB8888,
+    //                            SDL_TEXTUREACCESS_STREAMING,
+    //                            800, 600);
 
     // SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
     // SDL_RenderClear(renderer);
